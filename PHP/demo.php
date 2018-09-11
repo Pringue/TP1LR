@@ -10,6 +10,9 @@
 <body>
     <?php
     include "cnx.php";
+    // Correction JB
+
+    echo "Hello";
 
     $sql = $cnx->prepare("select idCateg, nomCateg, imageCateg from categorie");
     $sql->execute();
